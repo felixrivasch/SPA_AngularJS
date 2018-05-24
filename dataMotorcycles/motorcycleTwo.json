@@ -1,0 +1,30 @@
+{
+	"id"			: "motorcycleTwo",
+	"nombre"		: "CRF1000L Africa Twin",
+	"descripcion"	: "De vuelta a su hábitat natural. Hace casi 30 años, la Africa Twin conquistó el rally París-Dakar. Este año, la hemos reinventado con el mismo espíritu de True Adventure.",
+	"imagenes"		: [
+		"img/motorcycles/urlTwo.png",
+		"img/motorcycles/url1Two.jpg",
+		"img/motorcycles/url2Two.jpg",
+		"img/motorcycles/url3Two.jpg"
+	],
+	"motor"			: {
+		"tipo"			: "Sistema de inyección programada de gasolina (PGM-FI)",
+		"marchas"		: "Two",
+		"transmision"	: "Manual. Accionamiento mecánico por cable",
+		"arranque"		: "Eléctrico"
+	},
+	"fabricante"	: {
+		"nombreFabricante"	: "HONDA",
+		"paisOrigen"		: "USA"
+	},
+	"cilindrada"	: "998 cc.",
+	"tamanoYpeso" 	: {
+		"dimensiones"	: [
+			"930 mm. (w)",
+			"1.475 mm. (h)",
+			"2.335 mm. (l)"
+		],
+		"peso"			: "232 (Kg)"
+	}
+}

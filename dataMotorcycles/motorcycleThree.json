@@ -1,0 +1,32 @@
+{
+	"id"			: "motorcycleThree",
+	"nombre"		: "VFR1200X Crosstourer",
+	"descripcion"	: "Ve más allá. La nueva VFR1200X dispone de mayor funcionalidad para viajes ilimitados.",
+	"imagenes"		: [
+		"img/motorcycles/urlThree.png",
+		"img/motorcycles/url1Three.jpg",
+		"img/motorcycles/url2Three.jpg",
+		"img/motorcycles/url3Three.jpg",
+		"img/motorcycles/url4Three.jpg",
+		"img/motorcycles/url5Three.jpg"
+	],
+	"motor"			: {
+		"tipo"			: "Sistema de inyección programada de gasolina (PGM-FI)",
+		"marchas"		: "Three",
+		"transmision"	: "Manual. Accionamiento hidráulico",
+		"arranque"		: "Eléctrico"
+	},
+	"fabricante"	: {
+		"nombreFabricante"	: "HONDA",
+		"paisOrigen"		: "USA"
+	},
+	"cilindrada"	: "1.237 cc.",
+	"tamanoYpeso" 	: {
+		"dimensiones"	: [
+			"915 mm. (w)",
+			"1.460 mm. (h)",
+			"2.285 mm. (l)"
+		],
+		"peso"			: "277 (Kg)"
+	}
+}

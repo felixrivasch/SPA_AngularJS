@@ -1,0 +1,23 @@
+[
+    {
+        "modelo": 2016, 
+        "id": "motorcycleOne", 
+        "imageUrl": "img/motorcycles/urlOne.png", 
+        "name": "Honda X-ADV", 
+        "snippet": "El espíritu de la aventura."
+    },
+    {
+        "modelo": 2017, 
+        "id": "motorcycleTwo", 
+        "imageUrl": "img/motorcycles/urlTwo.png", 
+        "name": "CRF1000L Africa Twin", 
+        "snippet": "De vuelta a su hábitat natural."
+    },
+    {
+        "modelo": 2018, 
+        "id": "motorcycleThree", 
+        "imageUrl": "img/motorcycles/urlThree.png", 
+        "name": "VFR1200X Crosstourer", 
+        "snippet": "Ve más allá."
+    }
+]

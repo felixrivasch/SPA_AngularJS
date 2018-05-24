@@ -1,0 +1,62 @@
+<div class="blog-header">
+	<h3 class="blog-title">{{motorcycle.nombre}} </h3>
+	<p class="lead blog-description">{{motorcycle.descripcion}} </p>
+</div>
+<div class="row">
+	<div class="col-sm-7 blog-main">
+		<div class="car-images">
+			<img ng-src="{{img}}" class="car" ng-repeat="img in motorcycle.imagenes" ng-class="{active: mainImageUrl==img}">
+		</div>
+	</div>
+	<div class="col-sm-5 blog-sidebar">
+		<ul class="car-thumbs">
+			<li ng-repeat="img in motorcycle.imagenes">
+				<img ng-src="{{img}}" ng-click="setImage(img)">
+			</li>
+		</ul>
+		<ul>
+	      	<a href="#/motorcycles" class="btn btn-primary" style="position: absolute; right: 30px;">Atrás</a>
+	    </ul>
+	</div>
+</div>
+
+<ul class="especifaciones">
+	<li>
+		<span>Motor</span>
+		<dl>
+			<dt>Tipo</dt>
+			<dd>{{motorcycle.motor.tipo}}</dd>
+			<dt>Marchas</dt>
+			<dd>{{motorcycle.motor.marchas}}</dd>
+			<dt>Transmisión</dt>
+			<dd>{{motorcycle.motor.transmision}}</dd>
+			<dt>Arranque</dt>
+			<dd>{{motorcycle.motor.arranque}}</dd>
+		</dl>
+	</li>
+	<li>
+		<span>Fabricante</span>
+		<dl>
+			<dt>Fabricado por</dt>
+			<dd>{{motorcycle.fabricante.nombreFabricante}}</dd>
+			<dt>País</dt>
+			<dd>{{motorcycle.fabricante.paisOrigen}}</dd>
+		</dl>
+	</li>
+	<li>
+		<span>Cilindrada</span>
+		<dl>
+			<dt>cm3</dt>
+			<dd>{{motorcycle.cilindrada}}</dd>
+		</dl>
+	</li>
+	<li>
+		<span>Tamaño y Peso</span>
+		<dl>
+			<dt>dimensiones</dt>
+			<dd ng-repeat="medida in motorcycle.tamanoYpeso.dimensiones">{{medida}}</dd>
+			<dt>Peso</dt>
+			<dd>{{motorcycle.tamanoYpeso.peso}}</dd>
+		</dl>
+	</li>
+</ul>

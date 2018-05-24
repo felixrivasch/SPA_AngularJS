@@ -1,0 +1,30 @@
+{
+	"id"			: "motorcycleOne",
+	"nombre"		: "Honda X-ADV",
+	"descripcion"	: "El espíritu de la aventura. Con el objetivo de lanzarse a la aventura y buscar nuevas experiencias, esta moto captura realmente la esencia de la libertad de una forma nueva y apasionante.",
+	"imagenes"		: [
+		"img/motorcycles/urlOne.png",
+		"img/motorcycles/url1One.jpg",
+		"img/motorcycles/url2One.jpg",
+		"img/motorcycles/url3One.jpg"
+	],
+	"motor"			: {
+		"tipo"			: "Sistema de inyección programada de gasolina (PGM-FI)",
+		"marchas"		: "One",
+		"transmision"	: "Transmisión de doble embrague",
+		"arranque"		: "electrico"
+	},
+	"fabricante"	: {
+		"nombreFabricante"	: "HONDA",
+		"paisOrigen"		: "USA"
+	},
+	"cilindrada"	: "745 cc.",
+	"tamanoYpeso" 	: {
+		"dimensiones"	: [
+			"910 mm. (w)",
+			"1.375 mm. (h)",
+			"2.245 mm. (l)"
+		],
+		"peso"			: "238 (Kg)"
+	}
+}
